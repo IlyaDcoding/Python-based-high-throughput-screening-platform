@@ -1,0 +1,4 @@
+﻿material_id,rank,score,composition,family,material_class,thermal_conductivity,thermal_expansion,normalized_thermal_conductivity,normalized_thermal_expansion
+SGDETZO,1,1.0,(Sm0.2Gd0.2Dy0.2Er0.2Tm0.2)2Zr2O7,fluorite zirconate,high-entropy oxide,1.58,11.39,1.0,1.0
+GDHETZO,2,0.2966101694915255,(Gd0.2Dy0.2Ho0.2Er0.2Tm0.2)2Zr2O7,fluorite zirconate,high-entropy oxide,1.72,11.3,0.0,0.8474576271186443
+GDHEYZO,3,0.278571428571429,(Gd0.2Dy0.2Ho0.2Er0.2Yb0.2)2Zr2O7,fluorite zirconate,high-entropy oxide,1.66,10.8,0.42857142857142927,0.0

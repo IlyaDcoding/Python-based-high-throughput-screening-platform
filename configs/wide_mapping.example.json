@@ -1,0 +1,46 @@
+{
+  "columns": {
+    "material_id": "Sample ID",
+    "composition": "Formula",
+    "family": "Material family",
+    "material_class": "Material class",
+    "crystal_structure": "Structure",
+    "applications": "Applications",
+    "data_type": "Origin",
+    "publication_title": "Publication title",
+    "doi": "DOI"
+  },
+  "defaults": {
+    "specimen_form": "sintered bulk"
+  },
+  "properties": [
+    {
+      "columns": {
+        "value": "k_mW_mK",
+        "temperature_c": "k temperature C",
+        "source_locator": "k reference"
+      },
+      "defaults": {
+        "property": "thermal_conductivity",
+        "unit": "mW/(m*K)",
+        "cohort": "peer-study-k",
+        "method": "Laser flash diffusivity, estimated Neumann-Kopp heat capacity and density",
+        "basis": "Porosity-corrected"
+      }
+    },
+    {
+      "columns": {
+        "value": "CTE_ppm_K",
+        "temperature_c": "CTE temperature C",
+        "source_locator": "CTE reference"
+      },
+      "defaults": {
+        "property": "thermal_expansion",
+        "unit": "ppm/K",
+        "cohort": "peer-study-cte",
+        "method": "Dilatometry",
+        "basis": "Coefficient reported at endpoint"
+      }
+    }
+  ]
+}
